@@ -31,11 +31,11 @@ class _WhatsappState extends State<Whatsapp> {
         unselectedItemColor: Colors.grey,
         backgroundColor: Colors.black,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.add_circle_outline), label: "Updates",  backgroundColor: Colors.black,),
-          BottomNavigationBarItem(icon: Icon(Icons.phone), label: "Phone", backgroundColor: Colors.black,),
-          BottomNavigationBarItem(icon: Icon(Icons.people_alt),label: "Communities"),
-          BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings",),
+          BottomNavigationBarItem(icon: Icon(Icons.update), label: "Updates",  backgroundColor: Colors.black,),
+          BottomNavigationBarItem(icon: Icon(Icons.phone), label: "Calls", backgroundColor: Colors.black,),
+          BottomNavigationBarItem(icon: Icon(Icons.people_alt),label: "Communities", backgroundColor: Colors.black),
+          BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat", backgroundColor: Colors.black),
+          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings", backgroundColor: Colors.black),
         ],
       ),
     );

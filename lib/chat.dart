@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class ChatW extends StatelessWidget {
   const ChatW({super.key});
@@ -8,10 +9,10 @@ class ChatW extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.grey,
-        shape: OutlineInputBorder(borderRadius: BorderRadius.circular(50)),
+        backgroundColor: Colors.white70,
+        shape: OutlineInputBorder(borderRadius: BorderRadius.circular(30)),
         onPressed: () {},
-        child: Icon(Icons.add, color: Colors.black),
+        child: FaIcon(FontAwesomeIcons.circle,)
       ),
       appBar: AppBar(
         foregroundColor: Colors.white,
