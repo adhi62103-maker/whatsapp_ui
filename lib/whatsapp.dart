@@ -29,6 +29,7 @@ class _WhatsappState extends State<Whatsapp> {
         },
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.grey,
+        showUnselectedLabels: true,
         backgroundColor: Colors.black,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.update), label: "Updates",  backgroundColor: Colors.black,),

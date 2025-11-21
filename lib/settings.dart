@@ -516,7 +516,7 @@ class SettingsW extends StatelessWidget {
                 title: Row(
                   children: [
                     FaIcon(FontAwesomeIcons.meta, color: Colors.grey),
-                    SizedBox(width: 10,),
+                    SizedBox(width: 10),
                     Text(
                       "Meta",
                       style: TextStyle(
@@ -524,12 +524,13 @@ class SettingsW extends StatelessWidget {
                         fontSize: 15,
                         color: Colors.white,
                       ),
-                    )
+                    ),
                   ],
                 ),
                 subtitle: Column(
                   children: [
-                    Align(alignment: Alignment.topLeft,
+                    Align(
+                      alignment: Alignment.topLeft,
                       child: Padding(
                         padding: const EdgeInsets.only(top: 10),
                         child: Text(
@@ -541,7 +542,8 @@ class SettingsW extends StatelessWidget {
                           ),
                         ),
                       ),
-                    ),SizedBox(height: 10,),
+                    ),
+                    SizedBox(height: 10),
                     Text(
                       "Control your experience across Whatsapp,Facebook, Instagram and more.",
                     ),
@@ -550,6 +552,116 @@ class SettingsW extends StatelessWidget {
                 trailing: Padding(
                   padding: const EdgeInsets.only(left: 5),
                   child: Icon(Icons.arrow_forward_ios),
+                ),
+              ),
+            ),
+            SizedBox(height: 20),
+            SizedBox(
+              height: 150,
+              width: 400,
+              child: ListTile(
+                tileColor: Colors.white10,
+                shape: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                  borderSide: BorderSide(color: Colors.white10),
+                ),
+                title: Text(
+                  "Also from Meta",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                subtitle: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20, left: 20),
+                      child: Row(
+                        children: [
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(30),
+                              color: Colors.white30,
+                            ),
+                            child: Center(
+                              child: FaIcon(
+                                FontAwesomeIcons.instagram,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 25),
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(30),
+                              color: Colors.white30,
+                            ),
+                            child: Center(
+                              child: FaIcon(
+                                FontAwesomeIcons.facebook,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 25),
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(30),
+                              color: Colors.white30,
+                            ),
+                            child: Center(
+                              child: FaIcon(
+                                FontAwesomeIcons.threads,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 25),
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(30),
+                              color: Colors.white30,
+                            ),
+                            child: Center(
+                              child: CircleAvatar(
+                                backgroundColor: Colors.white30,
+                                radius: 30,
+                                child: Icon(
+                                  Icons.circle_outlined,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),SizedBox(height: 5,), Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(left: 15),
+                          child: Row(children: [Text("Instagram",style: TextStyle(color: Colors.white),),],),
+                        ),SizedBox(width: 5,), Padding(
+                          padding: const EdgeInsets.only(left: 15),
+                          child: Row(children: [Text("Facebook",style: TextStyle(color: Colors.white),),],),
+                        ),SizedBox(width: 10), Padding(
+                          padding: const EdgeInsets.only(left: 15),
+                          child: Row(children: [Text("Threads",style: TextStyle(color: Colors.white),),],),
+                        ),SizedBox(width: 17,), Padding(
+                          padding: const EdgeInsets.only(left: 15),
+                          child: Row(children: [Text("Meta AI",style: TextStyle(color: Colors.white),),],),
+                        )
+
+                      ],
+                    ),
+                  ],
                 ),
               ),
             ),

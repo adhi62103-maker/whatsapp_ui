@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui/chat.dart';
 import 'package:whatsapp_ui/phone.dart';
+import 'package:whatsapp_ui/update.dart';
 import 'package:whatsapp_ui/whatsapp.dart';
 
 void main() {
