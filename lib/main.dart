@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui/chat.dart';
 import 'package:whatsapp_ui/phone.dart';
+import 'package:whatsapp_ui/splash.dart';
 import 'package:whatsapp_ui/update.dart';
 import 'package:whatsapp_ui/whatsapp.dart';
 
@@ -15,4 +16,4 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
-    home: Whatsapp(),);}}
+    home: Splash(),);}}

@@ -13,7 +13,7 @@ class Whatsapp extends StatefulWidget {
 }
 
 class _WhatsappState extends State<Whatsapp> {
-  int index = 0;
+  int index = 3;
   List<Widget> screens = [UpdateW(),PhoneW(),CommunitiesW(), ChatW(), SettingsW()];
 
   @override
